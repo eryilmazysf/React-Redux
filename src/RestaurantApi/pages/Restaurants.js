@@ -59,7 +59,7 @@ const Restaurants = (props) => {
     <SafeAreaView style={{flex: 1}}>
       <View style={{flex: 1}}>
         <Text style={{fontSize: 25, textAlign: 'center', fontWeight: 'bold'}}>
-          Restoranlar
+          Restorantlar
         </Text>
         <FlatList
           keyExtractor={(_, index) => index.toString()}

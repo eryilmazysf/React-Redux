@@ -17,19 +17,25 @@ function Router() {
       <NavigationContainer>
         <Tab.Navigator
           initialRouteName="RestaurantsPage"
+          // icon star from there
           screenOptions={({route}) => ({
             tabBarIcon: ({_, color, size}) => {
               let iconName;
 
               if (route.name === 'FavoritesPage') {
-                iconName = 'gratipay';
+                iconName = 'heart';
+                size = 35;
+                color = 'red';
               } else if (route.name === 'RestaurantsPage') {
                 iconName = 'cutlery';
+                size = 30;
+                color = 'black';
               }
 
               // You can return any component that you like here!
               return <Icon name={iconName} size={size} color={color} />;
             },
+            // icon end there
           })}
           tabBarOptions={{
             activeTintColor: 'tomato',
