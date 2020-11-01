@@ -13,6 +13,7 @@ const store = createStore(reducer, initialState);
 
 const Main = (props) => {
   return (
+    //HOC -High Order Component
     //provider wrap all component
     <Provider store={store}>
       <SafeAreaView style={{flex: 1}}>
