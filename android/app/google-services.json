@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "486042056272",
+    "firebase_url": "https://clarusway2508.firebaseio.com",
+    "project_id": "clarusway2508",
+    "storage_bucket": "clarusway2508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486042056272:android:a5a7905dbb4c7821a64355",
+        "android_client_info": {
+          "package_name": "com.lesson4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486042056272-ai5pbtsvr21022kak821t1nkku00dvdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdqBRjxefSedG6Oms5sH7lg_-NEkikV0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486042056272-ai5pbtsvr21022kak821t1nkku00dvdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
